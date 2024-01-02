@@ -18,3 +18,6 @@ I simulated a small control panel with a button and lights. A green LED turns on
 | Breadboard |  | 1 |
 | Resistance | 220 Ohm | 3 |
 | Resistance | 10k Ohm | 1 |
+
+### Conclusion
+The goal of the project was to understand how to control the digital pins and use Arduino to manage the circuit behavior. 
