@@ -1,5 +1,5 @@
 
-int switchState = 0;
+int switchState = 0; // it will store the value of the 2nd digital pin
 
 void setup() {
   
@@ -12,18 +12,20 @@ void setup() {
 
 void loop() {
 
-  switchState = digitalRead(2);
+  switchState = digitalRead(2); // read the value of the 2nd digital pin and store it in the switchState variable
 
   if (switchState == LOW) {
-    
-    digitalWrite(3, HIGH); 
+
+    // green led turns on, others turns off
+    digitalWrite(3, HIGH);
     digitalWrite(4, LOW); 
     digitalWrite(5, LOW);
     
   } 
   
   else {
-    
+
+    // green led turns off, others start blinking
     digitalWrite(3, LOW);
     digitalWrite(4, LOW);
     digitalWrite(5, HIGH);
