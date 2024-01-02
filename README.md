@@ -2,6 +2,7 @@
 
 This repository contains some small projects that I made while studying for the Arduino Fundamentals Certification, for every of them you can find the source code, logical and physical schemes. This is a list to directly see the details about them:
 1. [Aereospace Interface](#aereospace-interface)
+2. [Temperature Sensor](#temperature-sensor)
 
 ## Aereospace Interface
 
@@ -21,3 +22,5 @@ I simulated a small control panel with a button and lights. A green LED turns on
 
 ### Conclusion
 The goal of the project was to understand how to control the digital pins and use Arduino to manage the circuit behavior. 
+
+## Temperature Sensor
